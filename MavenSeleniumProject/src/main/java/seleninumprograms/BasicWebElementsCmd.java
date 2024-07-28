@@ -13,8 +13,9 @@ public class BasicWebElementsCmd {
 		driver.get("https://www.qabible.in/payrollapp/site/login");
 		driver.manage().window().maximize();
 		
-		WebElement username=driver.findElement(By.id("loginform-username")); //To declare an element //by is findElement parameter
-		//by.id is static classname.staic method
+		WebElement username=driver.findElement(By.id("loginform-username")); //To declare an element
+		//by is findElement parameter
+		//by.id is static ie classname.staic method
 		username.sendKeys("Aiswarya");
 		username.clear(); //clear method is used to clear the text field
 		

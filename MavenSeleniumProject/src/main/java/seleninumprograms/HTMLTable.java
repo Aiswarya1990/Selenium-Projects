@@ -14,7 +14,8 @@ public class HTMLTable {
 		driver.get("https://selenium.qabible.in/table-pagination.php");
 		driver.manage().window().maximize();
 
-		List<WebElement> firstRow=driver.findElements(By.xpath("//table[@id='dtBasicExample']//tbody//tr[1]//td")); ////to find row xpath give tr value
+		List<WebElement> firstRow=driver.findElements(By.xpath("//table[@id='dtBasicExample']//tbody//tr[1]//td")); 
+		//to find row xpath give tr value
 		
 	for(int i=0;i<firstRow.size();i++) 
 	{
@@ -23,7 +24,11 @@ public class HTMLTable {
 		
 		
 	}
-List<WebElement> firstcolumn=driver.findElements(By.xpath("//table[@id='dtBasicExample']//tbody//tr//td[1]"));//to find column xpath give td value
+	
+List<WebElement> firstcolumn=driver.findElements(By.xpath("//table[@id='dtBasicExample']//tbody//tr//td[1]"));
+//to find column xpath give td value
+
+
 
 for(int j=0;j<firstcolumn.size();j++) 
 {

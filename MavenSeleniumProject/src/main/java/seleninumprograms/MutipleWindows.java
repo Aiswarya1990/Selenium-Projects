@@ -23,7 +23,7 @@ public class MutipleWindows {
  	  System.out.println(parentwindow);
  	  System.out.println(allwindows);
  	  
- 	  for(String childwindow :allwindows)
+ 	  for(String childwindow :allwindows) //using foreach loop
 	{
  	if(!childwindow.equals(parentwindow)) 
  		{
